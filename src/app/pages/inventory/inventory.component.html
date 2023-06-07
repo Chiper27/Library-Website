@@ -1,0 +1,9 @@
+<div class="items">
+    <div *ngFor="let item of items" class="item">
+      <p id="Nume">Nume:{{item}}</p>
+      <p id="Desciere">Descriere: {{item}}</p>
+      <p id="cantitate">cantitate: </p>
+      <button id="delete">delete</button>
+      <button id="edit"(click)="goToCreateItem()">edit</button>
+    </div>
+  </div>

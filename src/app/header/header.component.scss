@@ -1,0 +1,34 @@
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+  }
+  
+  .navbar_list {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 40px;
+  }
+  
+  .navbar_list button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .navbar_list button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+  }
+  
+  .navbar_container .next img{
+    width: 60px;
+  }
+  
+  
